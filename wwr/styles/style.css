@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rock+Salt&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#background {
+    height: 725px;
+    background-color: rgb(78, 78, 78);
+}
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+#hero-msg h1, #hero-msg h2 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+body {
+    background-color: #2a5f81;
+    color: white; 
+    font-family: 'Fira Sans';
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color:#f8d585;
+    color: white;
+}
+nav a:hover {
+    background-color: #515943;
+    color: white;
+     text-decoration: underline;
+}
+.msg {
+    background-color: #515943;
+    color: white;
+    line-height: 1.5em;
+    padding: 35px;
+}
+footer {
+    background-color: #f8d585;
+    color: black;
+}
+.book {
+    background-color: #f8d585;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.join {
+    background-color: #f8d585;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book:hover, .join:hover {
+    background-color: #f8d585;
+    color: white;
+}
+.home-title {
+    color: white;
+    margin-top: 10px;
+    font-size:2em;
+    font-family:'Rock Salt';
+}
+.msg h2, .msg p {
+    color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+footer a {
+    color: black;
+    text-decoration: none;
+    
+}
+footer a:hover {
+    color: white;
+}
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+#hero-img {
+    width: 100%;
+    box-sizing: border-box;
+}
+footer p {  
+    font-size: 1.2em;
+    
+}    
+.h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border-radius: 10px;
+     border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
