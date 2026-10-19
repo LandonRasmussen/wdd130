@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #d3d3d3, #001f3f);
+  background-repeat: no-repeat; /* Just in case */
+  background-attachment: fixed;
+}
+
+.container {
+  text-align: center;
+}
+
+.header {
+  padding: 20px 0;
+}
+
+.header-image {
+  background-image: url('../images/icenter.png'); /* Replace with your image */
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+
+}
+
+.header-image h1 {
+  margin: 0;
+  line-height: 0.9;
+    font-size: 3.5em;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  background: #00000055;
+}
+
+.content-box {
+  background-color: white;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 900px;
+  padding: 40px;
+  box-shadow: 5px 5px 0px black;
+  min-height: 400px;
+}
+table, th, td {
+  border: 3px solid rgb(16, 25, 99);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+form {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #69a2e7;
+  box-shadow: 3px 3px 0px rgb(30, 74, 107);
+  font-family: Arial, sans-serif;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 100px 1fr 100px 1fr;
+  gap: 10px;
+  align-items: center;
+  border-radius: 10px;
+}
+h1{
+  font-family: Arial, sans-serif;
+  color: #ebeced;
+}
+h2{
+  font-family: Arial, sans-serif;
+  color: #205385;
+}
+a {
+  color: #2592e5;
+  text-decoration: underline;
+  border-radius: 10px;
+
+}
