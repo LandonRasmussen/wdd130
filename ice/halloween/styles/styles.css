@@ -1,0 +1,65 @@
+
+main {
+    padding: 20px;
+    background-color: #123443bb;
+}
+p {
+    font-size: 30px;
+    line-height: 1.5;
+}
+    ul {
+  display: flex;        
+  list-style: none;      
+  padding: 0;            
+  margin: 0;                        
+  text-align: center;
+  place-content: center;
+  gap: 100px;
+}
+ img {
+  width: 100px;         
+  height: 100px;       
+  object-fit: cover;    
+  border-radius: 50%;   
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+  display: block;
+} 
+.Pumpkin {      
+  object-fit: cover;    
+ background-color: #ed6d2d;
+ color: #fff;
+  font-family: 'Creepster', cursive; 
+  text-align: center;
+}
+.Bat {
+  object-fit: cover;     
+  background-color: #251212;
+  font-size: 30px;
+  color: #fff;
+   font-family: 'Creepster', cursive;
+   text-align: center;
+}
+.Skeleton {
+  object-fit: cover;     
+  background-color: #514e4e;
+  font-size: 30px;
+  color: #fff;
+   font-family: 'Creepster', cursive;
+   text-align: center;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Creepster', cursive;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+h1 {
+    font-family: 'Creepster', cursive;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+}
